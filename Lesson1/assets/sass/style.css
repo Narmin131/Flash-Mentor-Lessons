@@ -1,1 +1,23 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  width: 100%;
+  height: auto;
+  background-color: bisque;
+}
+.main-section .box {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .box h1 {
+    font-size: 12px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
